@@ -1,6 +1,6 @@
 self.addEventListener('install', (e) => {
   e.waitUntil(
-    caches.open('Kardumen-store').then((cache) => cache.addAll([
+    caches.open('dr.gerardo-store').then((cache) => cache.addAll([
       './',
       './index.html',
       './manifest.json'
